@@ -7,5 +7,8 @@
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
   </style>
-
+  <!--启动页样式(解决冷启动短暂白屏问题)-->
+  <style name="AppTheme.Launcher">
+    <item name="android:windowBackground">@color/colorPrimary</item>
+  </style>
 </resources>

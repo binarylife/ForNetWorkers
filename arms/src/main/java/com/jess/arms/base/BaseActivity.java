@@ -29,7 +29,7 @@ import butterknife.Unbinder;
 public abstract class BaseActivity<P extends BasePresenter> extends RxAppCompatActivity {
     protected final String TAG = this.getClass().getSimpleName();
     private BroadcastReceiver mBroadcastReceiver;
-    public static final String ACTION_RECEIVER_ACTIVITY = "com.jess.activity";
+    public static final String ACTION_RECEIVER_ACTIVITY = "com.bei.activity";
     protected BaseApplication mApplication;
     @Inject
     protected P mPresenter;
